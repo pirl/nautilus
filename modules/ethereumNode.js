@@ -11,7 +11,8 @@ const EventEmitter = require('events').EventEmitter;
 const Sockets = require('./socketManager');
 const ClientBinaryManager = require('./clientBinaryManager');
 
-const DEFAULT_NODE_TYPE = 'geth';
+
+const DEFAULT_NODE_TYPE = 'pirl';
 const DEFAULT_NETWORK = 'main';
 const DEFAULT_SYNCMODE = 'fast';
 
@@ -77,7 +78,7 @@ class EthereumNode extends EventEmitter {
     }
 
     get isGeth() {
-        return this._type === 'geth';
+        return this._type === 'pirl';
     }
 
     get isMainNetwork() {
@@ -317,7 +318,7 @@ class EthereumNode extends EventEmitter {
 
                 // if unable to start eth node then write geth to defaults
                 if (nodeType === 'eth') {
-                    Settings.saveUserData('node', 'geth');
+                    Settings.saveUserData('node', 'pirl');
                 }
 
                 throw err;
@@ -358,7 +359,7 @@ class EthereumNode extends EventEmitter {
      */
     __startProcess(nodeType, network, binPath, _syncMode) {
         let syncMode = _syncMode;
-        if (nodeType === 'geth' && !syncMode) {
+        if (nodeType === 'pirl' && !syncMode) {
             syncMode = 'fast';
         }
 
@@ -408,7 +409,7 @@ class EthereumNode extends EventEmitter {
 
                 // Starts Main net
                 default:
-                    args = (nodeType === 'geth')
+                    args = (nodeType === 'pirl')
                         ? [
                             '--syncmode', syncMode,
                             '--cache', ((process.arch === 'x64') ? '1024' : '512')
@@ -457,9 +458,9 @@ class EthereumNode extends EventEmitter {
                     if (STATES.STARTING === this.state) {
                         const dataStr = data.toString().toLowerCase();
 
-                        if (nodeType === 'geth') {
+                        if (nodeType === 'pirl') {
                             if (dataStr.indexOf('fatal: error') >= 0) {
-                                const error = new Error(`Geth error: ${dataStr}`);
+                                const error = new Error(`Pirl error: ${dataStr}`);
 
                                 if (dataStr.indexOf('bind') >= 0) {
                                     error.tag = UNABLE_TO_BIND_PORT_ERROR;

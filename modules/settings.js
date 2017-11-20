@@ -277,7 +277,8 @@ class Settings {
         } else if (process.platform === 'freebsd' ||
        process.platform === 'linux' ||
        process.platform === 'sunos') {
-            ipcPath += '/.ethereum/geth.ipc';
+//            ipcPath += '/.ethereum/geth.ipc';
+            ipcPath += '/.pirl/pirl.ipc';
         } else if (process.platform === 'win32') {
             ipcPath = '\\\\.\\pipe\\geth.ipc';
         }
