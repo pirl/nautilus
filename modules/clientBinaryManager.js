@@ -14,7 +14,7 @@ const log = require('./utils/logger').create('ClientBinaryManager');
 
 // should be       'https://raw.githubusercontent.com/ethereum/mist/master/clientBinaries.json'
 //const BINARY_URL = 'https://raw.githubusercontent.com/ethereum/mist/master/clientBinaries.json';
-const BINARY_URL = 'https://raw.githubusercontent.com/pirl/Oystr/master/clientBinaries.json';
+const BINARY_URL = 'https://raw.githubusercontent.com/pirl/nautilus/master/clientBinaries.json';
 
 const ALLOWED_DOWNLOAD_URLS_REGEX =
     /.*/;

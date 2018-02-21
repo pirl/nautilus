@@ -1,67 +1,47 @@
 {
     "clients": {
-        "Geth": {
-            "version": "1.7.2",
+        "pirl": {
+            "version": "1.0.1-stable",
             "platforms": {
-                "linux": {
+                "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.7.2-1db4ecdc.tar.gz",
+                            "url": "http://release.pirl.io/downloads/pirl/darwin/1.0.1/pirl-darwin-10.6-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "cc4a666fd21ae3627ee8ae974650b2f7",
-                            "bin": "geth-linux-amd64-1.7.2-1db4ecdc/geth"
+                            "md5": "645f0022aa71d26485edc07b73620ecc",
+                            "bin": "pirl-darwin-10.6-amd64/pirl"
                         },
-                        "bin": "geth",
+                        "bin": "pirl",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
-                                    "1.7.2"
-                                ]
-                            }
-                        }
-                    },
-                    "ia32": {
-                        "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-386-1.7.2-1db4ecdc.tar.gz",
-                            "type": "tar",
-                            "md5": "84b3a2d491db6f79fd84daa242da9ec6",
-                            "bin": "geth-linux-386-1.7.2-1db4ecdc/geth"
-                        },
-                        "bin": "geth",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Geth",
-                                    "1.7.2"
+                                    "Pirl",
+                                    "1.0.1-stable"
                                 ]
                             }
                         }
                     }
                 },
-                "mac": {
+                "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-darwin-amd64-1.7.2-1db4ecdc.tar.gz",
+                            "url": "http://release.pirl.io/downloads/pirl/linux/1.0.1/pirl-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "1220015825ee8772aada37353aa3f7ef",
-                            "bin": "geth-darwin-amd64-1.7.2-1db4ecdc/geth"
+                            "md5": "582cb8b9c323baf074c9bc510c0eb4da",
+                            "bin": "pirl-linux-amd64/pirl"
                         },
-                        "bin": "geth",
+                        "bin": "pirl",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
-                                "output": [
-                                    "Geth",
-                                    "1.7.2"
+                                "output":[
+                                    "Pirl",
+                                    "1.0.1-stable"
                                 ]
                             }
                         }
@@ -70,40 +50,20 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.7.2-1db4ecdc.zip",
+                            "url": "http://release.pirl.io/downloads/pirl/windows/1.0.1/pirl-windows-amd64.zip",
                             "type": "zip",
-                            "md5": "b34d22226c2d8c6729b4c01a2f25f818",
-                            "bin": "geth-windows-amd64-1.7.2-1db4ecdc\\geth.exe"
+                            "md5": "eb84e0f95b1be42639f226699255caa2",
+                            "bin": "pirl-windows-amd64\\pirl.exe"
                         },
-                        "bin": "geth.exe",
+                        "bin": "pirl.exe",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
-                                "output": [
-                                    "Geth",
-                                    "1.7.2"
-                                ]
-                            }
-                        }
-                    },
-                    "ia32": {
-                        "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-386-1.7.2-1db4ecdc.zip",
-                            "type": "zip",
-                            "md5": "50b353bf3639a502b06e0098c751df67",
-                            "bin": "geth-windows-386-1.7.2-1db4ecdc\\geth.exe"
-                        },
-                        "bin": "geth.exe",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Geth",
-                                    "1.7.2"
+                                "output":[
+                                    "Pirl",
+                                    "1.0.1-stable"
                                 ]
                             }
                         }

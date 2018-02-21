@@ -13,7 +13,7 @@ const version = require('../package.json').version;
 
 
 const type = options.type;
-const applicationName = (options.wallet) ? 'Ethereum Wallet' : 'Mist';
+const applicationName = (options.wallet) ? 'Pirl-Nautilus-Wallet' : 'Mist';
 
 
 gulp.task('clean-dist', (cb) => {
@@ -121,7 +121,7 @@ gulp.task('build-dist', (cb) => {
         name: applicationName.replace(/\s/, ''),
         productName: applicationName,
         description: applicationName,
-        homepage: 'https://github.com/ethereum/mist',
+        homepage: 'https://github.com/pirl/nautilus',
         build: {
             appId: `com.ethereum.${type}`,
             asar: true,

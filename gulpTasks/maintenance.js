@@ -13,13 +13,13 @@ const clientBinaries = require('../clientBinaries.json');
 
 
 gulp.task('update-nodes', (cb) => {
-    const clientBinariesGeth = clientBinaries.clients.Geth;
+    const clientBinariesGeth = clientBinaries.clients.Pirl;
     const localGethVersion = clientBinariesGeth.version;
     const newJson = clientBinaries;
     const geth = newJson.clients.Geth;
 
     // Query latest geth version
-    got('https://api.github.com/repos/ethereum/go-ethereum/releases/latest', { json: true })
+    got('https://api.github.com/repos/pirl/pirl/releases/latest', { json: true })
     .then((response) => {
         return response.body.tag_name;
     })
@@ -32,7 +32,7 @@ gulp.task('update-nodes', (cb) => {
             geth.version = latestGethVersion;
 
             // Query commit hash (first 8 characters)
-            got(`https://api.github.com/repos/ethereum/go-ethereum/commits/${tagName}`, { json: true })
+            got(`https://api.github.com/repos/pirl/pirl/commits/${tagName}`, { json: true })
             .then((response) => {
                 return String(response.body.sha).substr(0, 8);
             })

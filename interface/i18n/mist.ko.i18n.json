@@ -141,7 +141,7 @@
                 "downloading": "새로운 노드 다운로드중...",
                 "loadConfig": "클라이언트 설정 로딩중...",
                 "filtering": "클라이언트 바이너리 필터링중...",
-                "done": "Ethereum node up-to-date...",
+                "done": "Pirl node up-to-date...",
                 "error": "다운로드 된 바이너리 실행 중 오류."
             }
         },
@@ -208,7 +208,7 @@
                 "gotoMainnet": "메인 네트워크 사용하기",
                 "gotoMainnetDescription": "계약을 만들고 사용하기 위해서는 약간의 이더가 필요합니다. 약간의 이더를 가질 수 있도록 도와줄 수 있습니다.",
                 "doYouHaveAWalletFile": "지갑 파일을 가지고 있나요?",
-                "walletFileDescription": "<p>만일 2014년 이더리움 프리세일에 참여했다면, <code>ethereum_wallet_backup.json</code> 이란 파일을 가지고 있을 겁니다. 세일이 끝나고 다운로드를 받았거나 이메일로 받았을 겁니다.</p>",
+                "walletFileDescription": "<p>Move any wallet file here to import.</p>",
                 "dropFilesHere": "프리세일 파일을 가져다 놓기",
                 "creating": "만드는 중...",
                 "importing": "불러오는 중...",

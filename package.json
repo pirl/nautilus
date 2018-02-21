@@ -1,11 +1,11 @@
 {
-  "name": "Mist",
-  "version": "0.9.2",
+  "name": "Pirl-Nautilus-Wallet",
+  "version": "0.0.2",
   "license": "GPL-3.0",
-  "author": "Ethereum Mist Team <mist@ethereum.org>",
+  "author": "Pirl Nautilus Team <info@pirl.io>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum/mist.git"
+    "url": "https://github.com/pirl/nautilus.git"
   },
   "scripts": {
     "postinstall": "cd interface && yarn",
