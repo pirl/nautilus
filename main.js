@@ -230,7 +230,7 @@ onReady = () => {
             },
         });
 
-    // WALLET
+    // WALLET$('div.dapp-select-gas-price span').html()
     } else {
         mainWindow = Windows.create('main', {
             primary: true,
@@ -379,6 +379,7 @@ onReady = () => {
         .then(() => {
             // Wallet shouldn't start Swarm
             if (Settings.uiMode === 'wallet') {
+                //throw new Error('UI-Mode Wallet, Swarm not started');
                 return Promise.resolve();
             }
             return swarmNode.init();
@@ -506,8 +507,7 @@ startMainWindow = () => {
 
     // observe Tabs for changes and refresh menu
     const Tabs = global.db.getCollection('UI_tabs');
-
-    const sortedTabs = Tabs.addDynamicView('sorted_tabs');
+    const sortedTabs = Tabs.getDynamicView('sorted_tabs') || Tabs.addDynamicView('sorted_tabs');
     sortedTabs.applySimpleSort('position', false);
 
     const refreshMenu = () => {

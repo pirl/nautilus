@@ -2,15 +2,15 @@
     "mist": {
         "applicationMenu": {
             "app": {
-                "label": "__app__",
-                "about": "Über __app__",
+                "label": "Pirl Wallet",
+                "about": "Über Pirl Wallet",
                 "checkForUpdates": "Nach Aktualisierungen suchen...",
-                "checkForNodeUpdates": "Nach Ethereum Softwareknoten Aktualisierungen suchen...",
+                "checkForNodeUpdates": "Nach Pirl Softwareknoten Aktualisierungen suchen...",
                 "services": "Dienste",
-                "hide": "__app__ ausblenden",
+                "hide": "Pirl Wallet ausblenden",
                 "hideOthers": "Andere ausblenden",
                 "showAll": "Alle einblenden",
-                "quit": "__app__ schließen"
+                "quit": "Pirl Wallet schließen"
             },
             "edit": {
                 "label": "Bearbeiten",
@@ -44,7 +44,7 @@
                 "runTests": "Tests durchführen",
                 "logFiles": "Logdatei anzeigen",
                 "openRemix": "Remix IDE öffnen",
-                "ethereumNode": "Ethereum Softwareknoten",
+                "ethereumNode": "Pirl Softwareknoten",
                 "network": "Netzwerk",
                 "mainNetwork": "Hauptnetzwerk",
                 "startMining": "⛏ Mining starten",
@@ -70,7 +70,7 @@
             "nodeStartup": "Anscheinend konnte der Softwareknoten nicht gestartet werden, läuft evtl. schon eine andere Instanz? Oder läuft eventuell gerade ein Datenbank-Update?",
             "timeSync": {
                 "title": "Deine Computeruhr ist nicht synchronisiert!",
-                "description": "Um mit dem Ethereum-Netzwerk zu synchronisieren muss deine Computeruhr mit einem Zeitserver synchronisiert werden.",
+                "description": "Um mit dem Pirl-Netzwerk zu synchronisieren muss deine Computeruhr mit einem Zeitserver synchronisiert werden.",
                 "win32": "Gehe dazu in deine Internet Zeit Einstellungen in deinen System Einstellungen and checke die Box. Siehe diese Anleitung für Details: http://www.guidingtech.com/3119/windows-clock-sync/",
                 "linux": "Um Zeit Synchronisation einzuschalten installiere \"ntp\" via \"apt-get install ntp\".",
                 "darwin": "Um Zeit Synchronisation einzuschalten, öffne die System Einstellungen und checke \"Zeit Datum automatisch\"."
@@ -81,7 +81,7 @@
             },
             "legacyChain": {
                 "title": "Veraltete Chain erkannt",
-                "description": "Dein Softwareknoten ist zur Zeit auf der nicht unterstützten Ethereum Classic Chain. Um diese Chain zu nutzen, verwende die Tools vom Ethereum Classic Project unter\nhttps://ethereumclassic.github.io.\n\nUm zur Hauptchain von Ethereum zurückzukehren, folge den Schritten in diesem Tutorial:\nhttps://github.com/ethereum/mist/releases/0.8.2"
+                "description": "Dein Softwareknoten ist zur Zeit auf der nicht unterstützten Pirl Classic Chain. Um diese Chain zu nutzen, verwende die Tools vom Pirl Classic Project unter\nhttps://ethereumclassic.github.io.\n\nUm zur Hauptchain von Pirl zurückzukehren, folge den Schritten in diesem Tutorial:\nhttps://github.com/ethereum/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -100,7 +100,7 @@
             "mainNetwork": "Hauptnetzwerk",
             "testNetwork": "Testnetzwerk",
             "privateNetwork": "Privates Netzwerk",
-            "mainnetExplain": "Du bist mit dem globalen Hauptnetz von Ethereum verbunden",
+            "mainnetExplain": "Du bist mit dem globalen Hauptnetz von Pirl verbunden",
             "privatenetExplain": "Du bist mit einem privaten Netz verbunden, SENDE KEINE echten Ether an diese Adressen",
             "unknownnetExplain": "Es konnte nicht bestimmt werden, welches Netzwerk du nutzt"
         },
@@ -116,23 +116,23 @@
             }
         },
         "startScreen": {
-            "runningNodeFound": "Laufender Ethereum Softwareknoten gefunden!",
-            "startingNode": "Starte Ethereum Softwareknoten...",
+            "runningNodeFound": "Laufender Pirl Softwareknoten gefunden!",
+            "startingNode": "Starte Pirl Softwareknoten...",
             "startedNode": "Starte Anwendung...",
-            "nodeConnectionTimeout": "Ethereum Softwareknoten konnte nicht gestartet werden!<br><small>Wenn du <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'>Geth installiert hast,</a>, verwende bitte diesen Befehl, um Geth zu starten: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'>oder sende einen Fehlerreport</a></small>",
-            "nodeBinaryNotFound": "Keine Programmdatei für den Ethereum Softwareknoten gefunden!<br><small> <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'> Bitte starte den Ethereum Softwareknoten manuell. </a> </small>",
-            "nodeSyncing": "Ethereum Softwareknoten muss synchronisieren, bitte warten...",
+            "nodeConnectionTimeout": "Pirl Softwareknoten konnte nicht gestartet werden!<br><small>Wenn du <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'>Geth installiert hast,</a>, verwende bitte diesen Befehl, um Geth zu starten: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'>oder sende einen Fehlerreport</a></small>",
+            "nodeBinaryNotFound": "Keine Programmdatei für den Pirl Softwareknoten gefunden!<br><small> <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'> Bitte starte den Pirl Softwareknoten manuell. </a> </small>",
+            "nodeSyncing": "Pirl Softwareknoten muss synchronisieren, bitte warten...",
             "nodeSyncInfo": "Block __displayBlock__ von __highestBlock__ wird heruntergeladen.",
             "nodeSyncConnecting": "Suche nach Peers...",
             "peerSearchTimeout": "Peer-Suche überspringen",
-            "stoppingNode": "Stoppe Ethereum Softwareknoten...",
-            "nodeStarting": "Ethereum Softwareknoten startet...",
-            "nodeStarted": "Ethereum Softwareknoten gestartet",
-            "nodeConnected": "Ethereum Softwareknoten verbunden",
-            "nodeStopping": "Ethereum Softwareknoten stoppt...",
-            "nodeStopped": "Ethereum Softwareknoten gestoppt",
-            "nodeError": "Verbindungsproblem zum Ethereum Softwareknoten :'(",
-            "unableToBindPort": "Ethereum Softwareknoten kann nicht gestartet werden. Läuft bereits eine andere Instanz?",
+            "stoppingNode": "Stoppe Pirl Softwareknoten...",
+            "nodeStarting": "Pirl Softwareknoten startet...",
+            "nodeStarted": "Pirl Softwareknoten gestartet",
+            "nodeConnected": "Pirl Softwareknoten verbunden",
+            "nodeStopping": "Pirl Softwareknoten stoppt...",
+            "nodeStopped": "Pirl Softwareknoten gestoppt",
+            "nodeError": "Verbindungsproblem zum Pirl Softwareknoten :'(",
+            "unableToBindPort": "Pirl Softwareknoten kann nicht gestartet werden. Läuft bereits eine andere Instanz?",
             "nodeSyncInfoStates": "Lade Block __displayBlock__ von __highestBlock__, <br> Lade chain structure __displayState__ von __displayKnownStates__",
             "nodeSyncFoundPeers": "Verbinde mit __peers__ Peers...",
             "launchApp": "Starte die Anwendung",
@@ -141,8 +141,8 @@
                 "downloading": "Lade neue Softwareknoten-Version herunter...",
                 "loadConfig": "Lade Softwareknoten Konfiguration...",
                 "filtering": "Filtering client binaries...",
-                "done": "Ethereum Softwareknoten aktuell...",
-                "error": "Ethereum Softwareknoten konnte nicht gestartet werden."
+                "done": "Pirl Softwareknoten aktuell...",
+                "error": "Pirl Softwareknoten konnte nicht gestartet werden."
             }
         },
         "popupWindows": {
@@ -187,7 +187,7 @@
                     "connectionTimeout": "Eine Verbindung mit dem Softwareknoten war nicht möglich, eventuell ist der Softwareknoten im Hintergrund abgestürzt?",
                     "wrongPassword": "Falsches Passwort",
                     "multipleKeysMatchAddress": "Mehrere Konten stimmen mit der Adresse überein, bitte entferne Duplikate aus dem keystore Verzeichnis (Menü -> Konten -> Sicherung -> Konten)",
-                    "insufficientFundsForGas": "Zu wenig Mittel im Hauptkonto (etherbase) um für Gas zu bezahlen",
+                    "insufficientFundsForGas": "Zu wenig Mittel im Hauptkonto  um für Gas zu bezahlen",
                     "sameAccount": "Kann nicht zum gleichen Konto schicken."
                 },
                 "transactionThrow": "Der Vertrag wird diese Transaktion nicht ausführen können",
@@ -200,14 +200,14 @@
                 "lookupDataExplainer": "Schaue dies im Internet nach"
             },
             "onboarding": {
-                "description": "Ethereum ist eine dezentrale Plattform, um Anwendungen auf einer Blockchain zu bauen: Fälschungssichere Software, die Werte und Vermögen übertragen kann und für immer besteht",
+                "description": "Pirl ist eine dezentrale Plattform, um Anwendungen auf einer Blockchain zu bauen: Fälschungssichere Software, die Werte und Vermögen übertragen kann und für immer besteht",
                 "goToTestnet": "Verwende das Testnetz (Rinkeby)",
                 "goToTestnetDescription": "Teste die Technologie frei in der Testnetz-Sandbox, ",
                 "gotoMainnet": "Verwende das Hauptnetz",
                 "gotoMainnetDescription": " Du wirst etwas Ether benötigen, um Verträge anzulegen und auszuführen. Wir werden dir helfen, etwas zu bekommen ...",
                 "doYouHaveAWalletFile": "Hast du eine Wallet-Datei?",
-                "walletFileDescription": "<p>Wallet-Datei zum importieren in dieses Fenster ziehen.<br>Wenn du 2014 am Ethereum-Pre-sale teilgenommen hast, solltest du über eine Datei mit dem Dateinamen <code>ethereum_wallet_backup.json</code> verfügen. Sie wurde nach dem Kauf heruntergeladen und dir auch per E-Mail geschickt.</p>",
-                "dropFilesHere": "Pre-sale Datei laden",
+                "walletFileDescription": "<p>Wallet-Datei zum importieren in dieses Fenster ziehen.</p>",
+                "dropFilesHere": "Wallet Datei laden",
                 "creating": "Erstellen...",
                 "importing": "Importieren...",
                 "skip": "Diesen Schritt überspringen",
@@ -216,13 +216,13 @@
                 "protectDescription": "Wähle ein Passwort für dein Konto. Mache es so stark, als wären es deine Hausschlüssel!",
                 "accountTitle": "Lade die Datei hoch!",
                 "accountTitleTestnet": "Ether minen!",
-                "etherDescription": "Das Ethereum Netz basiert auf einem Tokan namens “Ether”. Du benötigst eine kleine Menge davon, um irgendetwas auf dem Ethereum-Netz zu tun.",
+                "etherDescription": "Das Pirl Netz basiert auf einem Tokan namens “Ether”. Du benötigst eine kleine Menge davon, um irgendetwas auf dem Pirl-Netz zu tun.",
                 "loadItDescription": "Wenn du bereits über Bitcoin oder eine andere Kryptowährung verfügst, kannst du diese mit Shapeshift einfach in Ether umtauschen. <br><br> Wir empfehlen, ca. <strong>0.25 bis 1 ether</strong> einzutauschen.",
                 "mineItDescription": "<strong>Auf dem Testnetz kannst du selbst Ether minen. Bitte gehe dazu in den Menüpunkt <em>Entwicklung</em> menu und wähle <em>Mining starten</em>. </strong> <br> <strong> VERSUCHE NICHT, ECHTE ETHER AN DIESE ADRESSE ZU SENDEN! </strong>",
                 "you": "DU",
-                "etherbase": "Hauptkonto (etherbase)",
+                "etherbase": "Hauptkonto ",
                 "depositBitcoin": "Bitcoin eintauschen",
-                "learnIt": "Lerne Ethereum kennen, während du wartest",
+                "learnIt": "Lerne Pirl kennen, während du wartest",
                 "downloadingBlocks": "Blöcke werden heruntergeladen",
                 "tutorial1Description": "<p> Nun musst du lediglich warten, bis der Download abgeschlossen ist. Hier findest du weitere Informationen:</p> <h4>Make your own money </h4> <p> Erstelle eine eigene Kryptowährung mit einer festen Geldmenge, Token, die reale Vermögenswerte darstellen, und so weiter ...</p>",
                 "tutorial2Description": "<h4> Erstelle einen Crowdsale</h4> <p> Sammle Mittel für ein gemeinsames Ziel, vollkommen vertrauenswürdig ohne einen weiteren Dritten. Überwinde die Hürden von traditionellen Crowdfunding-Systemen und gehe direkt an die Quellen, indem du deine Organisation über die Blockchain mit Mitteln versorgst.</p>",

@@ -211,17 +211,17 @@ let menuTempl = function (webviews) {
                             // geth
                             } else {
                                 if (process.platform === 'darwin') {
-                                    userPath += '/Library/Ethereum/keystore';
+                                    userPath += '/Library/Pirl/keystore';
                                 }
 
                                 if (process.platform === 'freebsd' ||
                                 process.platform === 'linux' ||
                                 process.platform === 'sunos') {
-                                    userPath += '/.ethereum/keystore';
+                                    userPath += '/.pirl/keystore';
                                 }
 
                                 if (process.platform === 'win32') {
-                                    userPath = `${Settings.appDataPath}\\Ethereum\\keystore`;
+                                    userPath = `${Settings.appDataPath}\\Pirl\\keystore`;
                                 }
                             }
 
@@ -235,7 +235,7 @@ let menuTempl = function (webviews) {
                     },
                 ],
             },
-            {
+            /* {
                 type: 'separator',
             },
             {
@@ -266,7 +266,7 @@ let menuTempl = function (webviews) {
                         }).catch(e => console.log(e));
                     }
                 }
-            }]
+        } */]
     });
 
     // EDIT
@@ -381,8 +381,7 @@ let menuTempl = function (webviews) {
         ],
     });
 
-
-    // DEVELOP
+    /* // DEVELOP
     const devToolsMenu = [];
     let devtToolsSubMenu;
     let curWindow;
@@ -596,8 +595,7 @@ let menuTempl = function (webviews) {
     menu.push({
         label: ((global.mining) ? '⛏ ' : '') + i18n.t('mist.applicationMenu.develop.label'),
         submenu: devToolsMenu,
-    });
-
+    }); */
     // WINDOW
     menu.push({
         label: i18n.t('mist.applicationMenu.window.label'),
@@ -652,17 +650,12 @@ let menuTempl = function (webviews) {
     helpMenu.push({
         label: i18n.t('mist.applicationMenu.help.mistWiki'),
         click() {
-            shell.openExternal('https://github.com/ethereum/mist/wiki');
-        },
-    }, {
-        label: i18n.t('mist.applicationMenu.help.gitter'),
-        click() {
-            shell.openExternal('https://gitter.im/ethereum/mist');
+            shell.openExternal('https://github.com/pirl/nautilus/wiki');
         },
     }, {
         label: i18n.t('mist.applicationMenu.help.reportBug'),
         click() {
-            shell.openExternal('https://github.com/ethereum/mist/issues');
+            shell.openExternal('https://github.com/pirl/nautilus/issues');
         },
     });
 

@@ -26,10 +26,10 @@ CRCCheck on
 RequestExecutionLevel admin
 
 !searchreplace APPNAMENOHYPEN ${APPNAME} "-" " "
-!define GROUPNAME "Ethereum"
-!define HELPURL "https://github.com/ethereum/mist/releases/issues"
-!define UPDATEURL "https://github.com/ethereum/mist/releases"
-!define ABOUTURL "https://ethereum.org"
+!define GROUPNAME "Pirl"
+!define HELPURL "https://github.com/pirl/nautilus/releases/issues"
+!define UPDATEURL "https://github.com/pirl/nautilus/releases"
+!define ABOUTURL "https://pirl.io"
 !define /date NOW "%Y%m%d"
 
 ## These must be integers and can be set on the command line by NSIS with "/DMAJORVERSION=0 /DMINORVERSION=8 /DBUILDVERSION=7"
@@ -65,7 +65,7 @@ ${EndIf}
 
     SetShellVarContext current
     StrCpy $DATADIR "$APPDATA\${APPNAME}"
-    StrCpy $NODEDATADIR "$APPDATA\Ethereum"
+    StrCpy $NODEDATADIR "$APPDATA\Pirl"
     StrCpy $SHORTCUTDIR "$SMPROGRAMS\${APPNAMENOHYPEN}"
     StrCpy $DESKTOPDIR "$DESKTOP"
 
@@ -159,10 +159,12 @@ Section Mist MIST_IDX
 
     # create shortcuts with flags in the start menu programs directory
     createDirectory "$SHORTCUTDIR"
-    createShortCut "$SHORTCUTDIR\${APPNAMENOHYPEN}.lnk" "$FILEDIR\${APPNAMENOHYPEN}.exe" '--node-datadir="$NODEDATADIR"' "$FILEDIR\${APPNAMENOHYPEN}.exe" 0
+    #createShortCut "$SHORTCUTDIR\${APPNAMENOHYPEN}.lnk" "$FILEDIR\${APPNAMENOHYPEN}.exe" '--node-datadir="$NODEDATADIR"' "$FILEDIR\${APPNAMENOHYPEN}.exe" 0
+    createShortCut "$SHORTCUTDIR\${APPNAMENOHYPEN}.lnk" "$FILEDIR\${APPNAME}.exe" '--node-datadir="$NODEDATADIR"' "$FILEDIR\${APPNAME}.exe" 0
 
     # create desktop shortcut
-    createShortCut "$DESKTOPDIR\${APPNAMENOHYPEN}.lnk" "$FILEDIR\${APPNAMENOHYPEN}.exe" '--node-datadir="$NODEDATADIR"' "$FILEDIR\${APPNAMENOHYPEN}.exe" 0
+    #createShortCut "$DESKTOPDIR\${APPNAMENOHYPEN}.lnk" "$FILEDIR\${APPNAMENOHYPEN}.exe" '--node-datadir="$NODEDATADIR"' "$FILEDIR\${APPNAMENOHYPEN}.exe" 0
+    createShortCut "$DESKTOPDIR\${APPNAMENOHYPEN}.lnk" "$FILEDIR\${APPNAME}.exe" '--node-datadir="$NODEDATADIR"' "$FILEDIR\${APPNAME}.exe" 0
 
     # create a shortcut for the program uninstaller
     CreateShortCut "$SHORTCUTDIR\Uninstall.lnk" "$FILEDIR\uninstall.exe"

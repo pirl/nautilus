@@ -145,13 +145,13 @@ ipc.on('backendAction_checkWalletFile', (e, path) => {
                     }
                 // geth
                 } else {
-                    if (process.platform === 'darwin') keystorePath += '/Library/Ethereum/keystore';
+                    if (process.platform === 'darwin') keystorePath += '/Library/Pirl/keystore';
 
                     if (process.platform === 'freebsd' ||
                         process.platform === 'linux' ||
-                        process.platform === 'sunos') keystorePath += '/.ethereum/keystore';
+                        process.platform === 'sunos') keystorePath += '/.pirl/keystore';
 
-                    if (process.platform === 'win32') keystorePath = `${Settings.appDataPath}\\Ethereum\\keystore`;
+                    if (process.platform === 'win32') keystorePath = `${Settings.appDataPath}\\Pirl\\keystore`;
                 }
 
                 if (!/^[0-9a-fA-F]{40}$/.test(keyfile.address)) {
@@ -182,7 +182,7 @@ ipc.on('backendAction_importWalletFile', (e, path, pw) => {
     const ClientBinaryManager = require('./clientBinaryManager');  // eslint-disable-line global-require
     let error = false;
 
-    const binPath = ClientBinaryManager.getClient('geth').binPath;
+    const binPath = ClientBinaryManager.getClient('pirl').binPath; // was geth
     const nodeProcess = spawn(binPath, ['wallet', 'import', path]);
 
     nodeProcess.once('error', () => {

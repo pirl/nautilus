@@ -205,7 +205,7 @@ class Settings {
     }
 
     get appName() {
-        return this.uiMode === 'mist' ? 'Mist' : 'Ethereum Wallet';
+        return this.uiMode === 'mist' ? 'Mist' : 'Pirl Nautilus Wallet';
     }
 
     get appLicense() {
@@ -273,13 +273,14 @@ class Settings {
         ipcPath = this.userHomePath;
 
         if (process.platform === 'darwin') {
-            ipcPath += '/Library/Ethereum/geth.ipc';
+            ipcPath += '/Library/Pirl/pirl.ipc';
         } else if (process.platform === 'freebsd' ||
        process.platform === 'linux' ||
        process.platform === 'sunos') {
-            ipcPath += '/.ethereum/geth.ipc';
+//            ipcPath += '/.ethereum/geth.ipc';
+            ipcPath += '/.pirl/pirl.ipc';
         } else if (process.platform === 'win32') {
-            ipcPath = '\\\\.\\pipe\\geth.ipc';
+            ipcPath = '\\\\.\\pipe\\pirl.ipc';
         }
 
         this._log.debug(`IPC path: ${ipcPath}`);
