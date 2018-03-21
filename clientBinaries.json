@@ -28,9 +28,9 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "http://release.pirl.io/downloads/pirl/linux/1.0.1/pirl-linux-amd64.tar.gz",
+                            "url": "http://release.pirl.io/downloads/pirl/linux/1.8.1/pirl-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "582cb8b9c323baf074c9bc510c0eb4da",
+                            "md5": "331ff8db9c5772ae58c6084fb888d55f",
                             "bin": "pirl-linux-amd64/pirl"
                         },
                         "bin": "pirl",
@@ -41,7 +41,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.0.1-stable"
+                                    "1.8.1-stable"
                                 ]
                             }
                         }
@@ -50,9 +50,9 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "http://release.pirl.io/downloads/pirl/windows/1.0.1/pirl-windows-amd64.zip",
+                            "url": "http://release.pirl.io/downloads/pirl/windows/1.8.1/pirl-windows-amd64.zip",
                             "type": "zip",
-                            "md5": "eb84e0f95b1be42639f226699255caa2",
+                            "md5": "a684001cd16d55878990a10d854b9540",
                             "bin": "pirl-windows-amd64\\pirl.exe"
                         },
                         "bin": "pirl.exe",
@@ -63,7 +63,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.0.1-stable"
+                                    "1.8.1-stable"
                                 ]
                             }
                         }
