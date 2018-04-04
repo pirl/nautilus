@@ -53,9 +53,9 @@
                             "url": "http://release.pirl.io/downloads/pirl/windows/1.8.1.1/pirl-windows-4.0-amd64.zip",
                             "type": "zip",
                             "md5": "25e33644fac473555d23918909845e3c",
-                            "bin": "pirl-windows-amd64\\pirl-windows-4.0-amd64.exe"
+                            "bin": "pirl-windows-4.0-amd64\\pirl-windows-4.0-amd64.exe"
                         },
-                        "bin": "pirl-windows-4.0-amd64.exe",
+                        "bin": "pirl.exe",
                         "commands": {
                             "sanity": {
                                 "args": [
