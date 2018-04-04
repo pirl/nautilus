@@ -19,7 +19,7 @@
                                 ],
                                 "output": [
                                     "Pirl",
-                                    "1.8.1-stable"
+                                    "1.8.1.1-stable"
                                 ]
                             }
                         }
@@ -28,10 +28,10 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "http://release.pirl.io/downloads/pirl/linux/1.0.1/pirl-linux-amd64.tar.gz",
+                            "url": "http://release.pirl.io/downloads/pirl/linux/1.8.1.1/pirl-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "582cb8b9c323baf074c9bc510c0eb4da",
-                            "bin": "pirl-linux-amd64/pirl"
+                            "md5": "8c4b896a260cd2cbc24674ed133c2f2e",
+                            "bin": "pirl-linux-amd64/pirl-linux-amd64"
                         },
                         "bin": "pirl",
                         "commands": {
@@ -41,7 +41,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.0.1-stable"
+                                    "1.8.1.1-stable"
                                 ]
                             }
                         }
@@ -50,10 +50,10 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "http://release.pirl.io/downloads/pirl/windows/1.0.1/pirl-windows-amd64.zip",
+                            "url": "http://release.pirl.io/downloads/pirl/windows/1.8.1.1/pirl-windows-amd64.zip",
                             "type": "zip",
-                            "md5": "eb84e0f95b1be42639f226699255caa2",
-                            "bin": "pirl-windows-amd64\\pirl.exe"
+                            "md5": "0997a7dd0ec6d9075a37625a418e0474",
+                            "bin": "pirl-windows-amd64\\pirl-windows-amd64.exe"
                         },
                         "bin": "pirl.exe",
                         "commands": {
