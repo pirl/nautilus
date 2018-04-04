@@ -34,7 +34,7 @@
                             "bin": "pirl-linux-amd64/pirl-linux-amd64"
                         },
                         "bin": "pirl",
-                        "commands": {
+                        "commands": { 
                             "sanity": {
                                 "args": [
                                     "version"
