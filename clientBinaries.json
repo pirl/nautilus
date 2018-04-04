@@ -1,12 +1,12 @@
 {
     "clients": {
         "pirl": {
-            "version": "1.8.1.1-stable",
+            "version": "1.8.1.1-stable", 
             "platforms": {
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "http://release.pirl.io/downloads/pirl/darwin/1.8.1/pirl-darwin-10.6-amd64.tar.gz",
+                            "url": "http://release.pirl.io/downloads/pirl/darwin/1.8.1.1/pirl-darwin-10.6-amd64.tar.gz",
                             "type": "tar",
                             "md5": "4f96bef51bd00fb7d8f3f6fc01420c97",
                             "bin": "pirl-darwin-10.6-amd64/pirl-darwin-10.6-amd64"
@@ -35,7 +35,7 @@
                         },
                         "bin": "pirl",
                         "commands": { 
-                            "sanity": {
+                            "sanity": { 
                                 "args": [
                                     "version"
                                 ],
