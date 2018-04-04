@@ -55,7 +55,7 @@
                             "md5": "0997a7dd0ec6d9075a37625a418e0474",
                             "bin": "pirl-windows-amd64\\pirl-windows-amd64.exe"
                         },
-                        "bin": "pirl.exe",
+                        "bin": "pirl-windows-amd64.exe",
                         "commands": {
                             "sanity": {
                                 "args": [
