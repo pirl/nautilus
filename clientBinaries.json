@@ -35,7 +35,7 @@
                         },
                         "bin": "pirl",
                         "commands": { 
-                            "sanity": {
+                            "sanity": { 
                                 "args": [
                                     "version"
                                 ],
