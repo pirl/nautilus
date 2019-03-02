@@ -6,10 +6,10 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "http://release.pirl.io/downloads/pirl/darwin/1.8.1.1/pirl-darwin-10.6-amd64.tar.gz",
+                            "url": "https://git.pirl.io/community/pirl/uploads/838db96d9ec6eeafe829a13cb3ca9d87/pirl-darwin-10.6-amd64-hulk-1_8_2.tar.gz",
                             "type": "tar",
-                            "md5": "4f96bef51bd00fb7d8f3f6fc01420c97",
-                            "bin": "pirl-darwin-10.6-amd64/pirl-darwin-10.6-amd64"
+                            "md5": "2066a21a64b6ee12dde056cea9e4b18f",
+                            "bin": "pirl-darwin-10.6-amd64/pirl-darwin-10.6-amd64-hulk-1_8_2"
                         },
                         "bin": "pirl",
                         "commands": {
@@ -19,7 +19,7 @@
                                 ],
                                 "output": [
                                     "Pirl",
-                                    "1.8.1.1-stable"
+                                    "1.8.2-hulk"
                                 ]
                             }
                         }
@@ -28,10 +28,10 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "http://release.pirl.io/downloads/pirl/linux/1.8.1.1/pirl-linux-amd64.tar.gz",
+                            "url": "https://git.pirl.io/community/pirl/uploads/dbef7ff835b08a3704f963510f4e0d70/pirl-linux-amd64-hulk-1_8_2.tar.gz",
                             "type": "tar",
-                            "md5": "8c4b896a260cd2cbc24674ed133c2f2e",
-                            "bin": "pirl-linux-amd64/pirl-linux-amd64"
+                            "md5": "dba4471ca071e0e14043ecc80481eaec",
+                            "bin": "pirl-linux-amd64/pirl-linux-amd64-hulk-1_8_2"
                         },
                         "bin": "pirl",
                         "commands": { 
@@ -41,7 +41,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.1.1-stable"
+                                    "1.8.2-hulk"
                                 ]
                             }
                         }
@@ -50,10 +50,10 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "http://release.pirl.io/downloads/pirl/windows/1.8.1.1/pirl-windows-4.0-amd64.zip",
+                            "url": "https://git.pirl.io/community/pirl/uploads/07ab1d5fbe0662041afc0c9ec97ae1dc/pirl-windows-4.0-amd64-hulk-1_8_2.zip",
                             "type": "zip",
-                            "md5": "25e33644fac473555d23918909845e3c",
-                            "bin": "pirl-windows-4.0-amd64\\pirl-windows-4.0-amd64.exe"
+                            "md5": "5d114133a1d06590d65d46d1d76229d0",
+                            "bin": "pirl-windows-4.0-amd64\\pirl-windows-4.0-amd64-hulk-1_8_2.exe"
                         },
                         "bin": "pirl.exe",
                         "commands": {
@@ -63,7 +63,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.1.1-stable"
+                                    "1.8.2-hulk"
                                 ]
                             }
                         }
