@@ -9,7 +9,7 @@
                             "url": "https://git.pirl.io/community/pirl/uploads/838db96d9ec6eeafe829a13cb3ca9d87/pirl-darwin-10.6-amd64-hulk-1_8_2.tar.gz",
                             "type": "tar",
                             "md5": "2066a21a64b6ee12dde056cea9e4b18f",
-                            "bin": "pirl-darwin-10.6-amd64/pirl-darwin-10.6-amd64-hulk-1_8_2"
+                            "bin": "pirl-darwin-10.6-amd64-hulk-1_8_2/pirl-darwin-10.6-amd64-hulk-1_8_2"
                         },
                         "bin": "pirl",
                         "commands": {
@@ -31,7 +31,7 @@
                             "url": "https://git.pirl.io/community/pirl/uploads/dbef7ff835b08a3704f963510f4e0d70/pirl-linux-amd64-hulk-1_8_2.tar.gz",
                             "type": "tar",
                             "md5": "dba4471ca071e0e14043ecc80481eaec",
-                            "bin": "pirl-linux-amd64/pirl-linux-amd64-hulk-1_8_2"
+                            "bin": "pirl-linux-amd64-hulk-1_8_2/pirl-linux-amd64-hulk-1_8_2"
                         },
                         "bin": "pirl",
                         "commands": { 
@@ -53,7 +53,7 @@
                             "url": "https://git.pirl.io/community/pirl/uploads/07ab1d5fbe0662041afc0c9ec97ae1dc/pirl-windows-4.0-amd64-hulk-1_8_2.zip",
                             "type": "zip",
                             "md5": "5d114133a1d06590d65d46d1d76229d0",
-                            "bin": "pirl-windows-4.0-amd64\\pirl-windows-4.0-amd64-hulk-1_8_2.exe"
+                            "bin": "pirl-windows-4.0-amd64-hulk-1_8_2\\pirl-windows-4.0-amd64-hulk-1_8_2.exe"
                         },
                         "bin": "pirl.exe",
                         "commands": {
