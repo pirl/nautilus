@@ -1,15 +1,15 @@
 {
     "clients": {
         "pirl": {
-            "version": "1.8.2-hulk", 
+            "version": "1.8.27-gecko", 
             "platforms": {
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://git.pirl.io/community/pirl/uploads/838db96d9ec6eeafe829a13cb3ca9d87/pirl-darwin-10.6-amd64-hulk-1_8_2.tar.gz",
+                            "url": "https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/walletnodes/pirl-darwin-10.6-amd64-gecko-1_8_27.tar.gz",
                             "type": "tar",
-                            "md5": "2066a21a64b6ee12dde056cea9e4b18f",
-                            "bin": "pirl-darwin-10.6-amd64-hulk-1_8_2/pirl-darwin-10.6-amd64-hulk-1_8_2"
+                            "md5": "a4bf0dfab6deb1cf227aeab662d2f098",
+                            "bin": "pirl-darwin-10.6-amd64-gecko-1_8_27/pirl-darwin-10.6-amd64-gecko-1_8_27"
                         },
                         "bin": "pirl",
                         "commands": {
@@ -19,7 +19,7 @@
                                 ],
                                 "output": [
                                     "Pirl",
-                                    "1.8.2-hulk"
+                                    "1.8.27-gecko"
                                 ]
                             }
                         }
@@ -28,10 +28,10 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://git.pirl.io/community/pirl/uploads/dbef7ff835b08a3704f963510f4e0d70/pirl-linux-amd64-hulk-1_8_2.tar.gz",
+                            "url": "https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/walletnodes/pirl-linux-amd64-gecko-1_8_27.tar.gz",
                             "type": "tar",
-                            "md5": "dba4471ca071e0e14043ecc80481eaec",
-                            "bin": "pirl-linux-amd64-hulk-1_8_2/pirl-linux-amd64-hulk-1_8_2"
+                            "md5": "30fec5056f03e99160f67b1636c7ad71",
+                            "bin": "pirl-linux-amd64-gecko-1_8_27/pirl-linux-amd64-gecko-1_8_27"
                         },
                         "bin": "pirl",
                         "commands": { 
@@ -41,7 +41,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.2-hulk"
+                                    "1.8.27-gecko"
                                 ]
                             }
                         }
@@ -50,10 +50,10 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://git.pirl.io/community/pirl/uploads/07ab1d5fbe0662041afc0c9ec97ae1dc/pirl-windows-4.0-amd64-hulk-1_8_2.zip",
+                            "url": "https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/walletnodes/pirl-windows-4.0-amd-gecko-1_8_27.zip",
                             "type": "zip",
-                            "md5": "5d114133a1d06590d65d46d1d76229d0",
-                            "bin": "pirl-windows-4.0-amd64-hulk-1_8_2\\pirl-windows-4.0-amd64-hulk-1_8_2.exe"
+                            "md5": "ddbe82bdd896bbe18956dadb8d03889e",
+                            "bin": "pirl-windows-4.0-amd-gecko-1_8_27\\pirl-windows-4.0-amd64-gecko-1_8_27.exe"
                         },
                         "bin": "pirl.exe",
                         "commands": {
@@ -63,7 +63,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.2-hulk"
+                                    "1.8.27-gecko"
                                 ]
                             }
                         }
