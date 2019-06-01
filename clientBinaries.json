@@ -1,15 +1,15 @@
 {
     "clients": {
         "pirl": {
-            "version": "1.8.27-gecko", 
+            "version": "1.8.27-damocles", 
             "platforms": {
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/walletnodes/pirl-darwin-10.6-amd64-gecko-1_8_27.tar.gz",
+                            "url": "https://git.pirl.io/community/pirl/uploads/5b3e699efddf1285217126f5b3a1e54f/pirl-darwin-10.6-amd64-1.8.27-damocles.tar.gz",
                             "type": "tar",
-                            "md5": "a4bf0dfab6deb1cf227aeab662d2f098",
-                            "bin": "pirl-darwin-10.6-amd64-gecko-1_8_27/pirl-darwin-10.6-amd64-gecko-1_8_27"
+                            "md5": "dbe95396e220ba601900b1e550ba50b5",
+                            "bin": "pirl-darwin-10.6-amd64-1.8.27-damocles/pirl-darwin-10.6-amd64-1.8.27-damocles"
                         },
                         "bin": "pirl",
                         "commands": {
@@ -19,7 +19,7 @@
                                 ],
                                 "output": [
                                     "Pirl",
-                                    "1.8.27-gecko"
+                                    "1.8.27-damocles"
                                 ]
                             }
                         }
@@ -28,10 +28,10 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/walletnodes/pirl-linux-amd64-gecko-1_8_27.tar.gz",
+                            "url": "https://git.pirl.io/community/pirl/uploads/e722e74e9a462aae2bcffddfb6693b72/pirl-linux-amd64-1.8.27-damocles.tar.gz",
                             "type": "tar",
-                            "md5": "30fec5056f03e99160f67b1636c7ad71",
-                            "bin": "pirl-linux-amd64-gecko-1_8_27/pirl-linux-amd64-gecko-1_8_27"
+                            "md5": "185aea4122d44ad52b082693e93d73b5",
+                            "bin": "pirl-linux-amd64-1.8.27-damocles/pirl-linux-amd64-1.8.27-damocles"
                         },
                         "bin": "pirl",
                         "commands": { 
@@ -41,7 +41,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.27-gecko"
+                                    "1.8.27-damocles"
                                 ]
                             }
                         }
@@ -50,10 +50,10 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/walletnodes/pirl-windows-4.0-amd-gecko-1_8_27.zip",
+                            "url": "https://git.pirl.io/community/pirl/uploads/c73c740fe9f613802d891b0bda66d629/pirl-windows-4.0-amd64-1.8.27-damocles.zip",
                             "type": "zip",
-                            "md5": "ddbe82bdd896bbe18956dadb8d03889e",
-                            "bin": "pirl-windows-4.0-amd-gecko-1_8_27\\pirl-windows-4.0-amd64-gecko-1_8_27.exe"
+                            "md5": "5d6e1efa87c54740cae1887a9d5345d7",
+                            "bin": "pirl-windows-4.0-amd64-1.8.27-damocles\\pirl-windows-4.0-amd64-1.8.27-damocles.exe"
                         },
                         "bin": "pirl.exe",
                         "commands": {
@@ -63,7 +63,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.27-gecko"
+                                    "1.8.27-damocles"
                                 ]
                             }
                         }
