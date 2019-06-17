@@ -6,9 +6,9 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://git.pirl.io/community/pirl/uploads/5b3e699efddf1285217126f5b3a1e54f/pirl-darwin-10.6-amd64-1.8.27-damocles.tar.gz",
+                            "url": "https://git.pirl.io/community/pirl/uploads/8fc60f76bbeac81ae9723c2c5856bbe4/pirl-darwin-10.6-amd64-1.8.27-damocles.tar.gz",
                             "type": "tar",
-                            "md5": "dbe95396e220ba601900b1e550ba50b5",
+                            "md5": "d85df1b00a5efb7e05b709df1208471a",
                             "bin": "pirl-darwin-10.6-amd64-1.8.27-damocles/pirl-darwin-10.6-amd64-1.8.27-damocles"
                         },
                         "bin": "pirl",
@@ -19,7 +19,7 @@
                                 ],
                                 "output": [
                                     "Pirl",
-                                    "1.8.27-damocles"
+                                    "1.8.27-damocles update"
                                 ]
                             }
                         }
@@ -28,9 +28,9 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://git.pirl.io/community/pirl/uploads/e722e74e9a462aae2bcffddfb6693b72/pirl-linux-amd64-1.8.27-damocles.tar.gz",
+                            "url": "https://git.pirl.io/community/pirl/uploads/b05e46f46d2a5e843d02cac13ef64c3d/pirl-linux-amd64-1.8.27-damocles.tar.gz",
                             "type": "tar",
-                            "md5": "185aea4122d44ad52b082693e93d73b5",
+                            "md5": "64fb0ae459406407f5f5b6e2441e57d7",
                             "bin": "pirl-linux-amd64-1.8.27-damocles/pirl-linux-amd64-1.8.27-damocles"
                         },
                         "bin": "pirl",
@@ -41,7 +41,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.27-damocles"
+                                    "1.8.27-damocles update"
                                 ]
                             }
                         }
@@ -50,9 +50,9 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://git.pirl.io/community/pirl/uploads/c73c740fe9f613802d891b0bda66d629/pirl-windows-4.0-amd64-1.8.27-damocles.zip",
+                            "url": "https://git.pirl.io/community/pirl/uploads/e83c59bb723e6767a80434f688ae29ef/pirl-windows-4.0-amd64-1.8.27-damocles.zip",
                             "type": "zip",
-                            "md5": "5d6e1efa87c54740cae1887a9d5345d7",
+                            "md5": "e599ce1af56929ef861def9ac0cff378",
                             "bin": "pirl-windows-4.0-amd64-1.8.27-damocles\\pirl-windows-4.0-amd64-1.8.27-damocles.exe"
                         },
                         "bin": "pirl.exe",
@@ -63,7 +63,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.27-damocles"
+                                    "1.8.27-damocles update"
                                 ]
                             }
                         }
