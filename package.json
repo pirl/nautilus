@@ -50,7 +50,7 @@
     "chai": "^3.5.0",
     "co-mocha": "^1.2.0",
     "del": "^2.2.2",
-    "ecstatic": "^2.1.0",
+    "ecstatic": "^2.2.2",
     "electron": "1.7.9",
     "electron-builder": "^12.2.2",
     "eslint": "^3.14.1",
