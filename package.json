@@ -64,7 +64,7 @@
     "gulp-babel": "^7.0.0",
     "gulp-spawn-mocha": "^3.3.0",
     "json-structure-diff": "^0.0.2",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "mocha": "^3.2.0",
     "require-dir": "^0.3.2",
     "run-sequence": "^1.2.1",
