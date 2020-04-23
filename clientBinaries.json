@@ -1,15 +1,15 @@
 {
     "clients": {
         "pirl": {
-            "version": "1.8.27-damocles", 
+            "version": "1.9.12-lion",
             "platforms": {
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://git.pirl.io/community/pirl/uploads/8fc60f76bbeac81ae9723c2c5856bbe4/pirl-darwin-10.6-amd64-1.8.27-damocles.tar.gz",
+                            "url": "https://chaindata.pirl.network/1-9-12-lion/wallets/pirl-lion-darwin-amd64-1.9.12.tar.gz",
                             "type": "tar",
-                            "md5": "d85df1b00a5efb7e05b709df1208471a",
-                            "bin": "pirl-darwin-10.6-amd64-1.8.27-damocles/pirl-darwin-10.6-amd64-1.8.27-damocles"
+                            "md5": "214471521baafec0ee83301354367c5f",
+                            "bin": "pirl-lion-darwin-amd64-1.9.12/pirl-osx"
                         },
                         "bin": "pirl",
                         "commands": {
@@ -19,7 +19,7 @@
                                 ],
                                 "output": [
                                     "Pirl",
-                                    "1.8.27-damocles"
+                                    "1.9.12-lion update"
                                 ]
                             }
                         }
@@ -28,20 +28,20 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://git.pirl.io/community/pirl/uploads/b05e46f46d2a5e843d02cac13ef64c3d/pirl-linux-amd64-1.8.27-damocles.tar.gz",
+                            "url": "https://chaindata.pirl.network/1-9-12-lion/wallets/pirl-lion-linux-amd64-1.9.12.tar.gz",
                             "type": "tar",
-                            "md5": "64fb0ae459406407f5f5b6e2441e57d7",
-                            "bin": "pirl-linux-amd64-1.8.27-damocles/pirl-linux-amd64-1.8.27-damocles"
+                            "md5": "bbd775980f8729ca1de07a694f7f9ba2",
+                            "bin": "pirl-lion-linux-amd64-1.9.12/pirl-1-9-12-lion"
                         },
                         "bin": "pirl",
-                        "commands": { 
-                            "sanity": { 
+                        "commands": {
+                            "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.27-damocles"
+                                    "1.9.12-lion update"
                                 ]
                             }
                         }
@@ -52,8 +52,8 @@
                         "download": {
                             "url": "https://git.pirl.io/community/pirl/uploads/e83c59bb723e6767a80434f688ae29ef/pirl-windows-4.0-amd64-1.8.27-damocles.zip",
                             "type": "zip",
-                            "md5": "e599ce1af56929ef861def9ac0cff378",
-                            "bin": "pirl-windows-4.0-amd64-1.8.27-damocles\\pirl-windows-4.0-amd64-1.8.27-damocles.exe"
+                            "md5": "9f12057e32515a8a2f916351707d78e1",
+                            "bin": "pirl-lion-win64-amd64-1.9.12\\pirl-lion.1.9.12.exe"
                         },
                         "bin": "pirl.exe",
                         "commands": {
@@ -63,7 +63,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.8.27-damocles"
+                                    "1.9.12-lion update"
                                 ]
                             }
                         }
