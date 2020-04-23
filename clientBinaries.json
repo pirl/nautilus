@@ -50,7 +50,7 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://git.pirl.io/community/pirl/uploads/e83c59bb723e6767a80434f688ae29ef/pirl-windows-4.0-amd64-1.8.27-damocles.zip",
+                            "url": "https://chaindata.pirl.network/1-9-12-lion/wallets/pirl-lion-win64-amd64-1.9.12.zip",
                             "type": "zip",
                             "md5": "9f12057e32515a8a2f916351707d78e1",
                             "bin": "pirl-lion-win64-amd64-1.9.12\\pirl-lion.1.9.12.exe"
